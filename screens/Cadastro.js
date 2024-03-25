@@ -8,6 +8,7 @@ import { TextInputMask } from "react-native-masked-text";
 
 export default function Cadastro() {
 
+
   const navigation = useNavigation();
   const [email, setEmail] = useState(null);
   const [nome, setNome] = useState(null);
